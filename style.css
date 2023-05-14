@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+:root {
+    --p :rgb(172, 117, 235);
+    /* --p: #9035db; */
+    --b: #000;
+  }
+
+/* **********************navsection****************************** */
+
+.center{
+    align-items: center;
+    text-align:center ;
+}
+.navbar{
+   margin:20px 50px 0 0;
+
+}
+
+.navbar ul{
+    text-align: right;
+}
+
+.navbar ul li{
+    font-weight: 500;
+     font-size: 18px;
+     display: inline;
+    padding-left: 25px;
+   
+}
+
+.navbar ul li a{
+    color: var(--b);
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    /* font-size: 19px; */
+    border-bottom: 2px solid var(--p);
+}
+
+/* *******************home ******************/
+
+/* .size{
+    max-width: 900px;
+} */
+
+.homemain{
+    margin:10px 100px 0 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.homemain .image {
+    box-shadow: 10px 10px;
+    background-color: var(--p);
+    border-radius: 1000px;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.homemain .image img{
+    border-radius: 700px;
+} 
+
+.homemain .text{
+    align-items: center;
+    padding: 80px 80px 0 150px;
+
+}
+
+
+.resume{
+    margin: 16px 0 0 7px;
+}
+
+.homemain .text a{
+    color: white;
+    background-color: var(--p);
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.homemain .text a:hover{
+    border: 2px solid black;
+}
+
+/* .text .icon a{
+    text-decoration: none;
+    background-color: white;
+} */
+
+ 
+
+.large{
+    font-weight: 550;
+    font-size: 60px;
+}
+
+.medium{
+    /* margin-top: 100px; */
+    font-size: 40px ;
+}
+
+
+
+
+/***************************************** aboutme****************************** */
+.heading{
+  
+     font-weight: 550;
+}
+
+.even{
+    background-color: var(--p);
+}
+
+.aboutmain{
+    padding-top: 20px;
+    margin-top: 40px;
+    height: 500px;
+}
+
+.abttext{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px;
+}
+
+.abttext img{
+    border-radius: 800px;
+}
+
+.abttext p{
+    line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 40px;
+}
+
+.abttext p span{
+    padding-left: 200px;
+}
+
+.underline{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+/* ********************skills******************* */
+
+.skillmain{
+    padding-top: 20px;
+
+}
+.skillimg{
+    margin: 20px 140px;
+}
+
+.skillimg table td{
+    padding: 5px 60px;
+}
+
+
+/* ********************project*********************** */
+.projectmain {
+    padding-top: 20px;
+
+}
+.small{
+    font-size: 30px;
+    font-weight: 520;
+}
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+
+.cardinfo{
+    margin-top: 10px;
+}
+
+.cardinfo button{
+    margin-top: 8px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cardinfo p a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cardinfo button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cardinfo button:hover{
+    background-color: var(--p);
+}
+
+.containbox {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* *************8Certification******************8 */
+
+.certimain {
+    padding-top: 20px;
+}
+
+.slideshow-container{
+    padding: 4px 30px;
+}
+
+.slideshow-container a{
+    cursor: pointer;
+}
+
+
+/* ***************8footer****************** */
+
+.footermain{
+    padding:10px 20px;
+    font-size: 14px;
+    font-weight: 549;
+   
+}
+
+.icon{
+    margin: 10px 0;
+}
+
+
+.icon ul li{
+    display: inline;
+    padding: 0 10px;
+}
